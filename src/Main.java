@@ -10,6 +10,7 @@ public class Main {
         String lineInput = scanner.nextLine();
         String output = calc(lineInput);
         System.out.println("Output:\n" + output);
+        scanner.close();
     }
 
     public static String calc(String input) {
